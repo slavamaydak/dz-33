@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin: auto;
+}
+
+.header {
+  background-color: #0a2640;
+}
+
+.header__meny {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5vh;
+  margin-bottom: 50px;
+}
+
+.header__logo {
+  height: 42px;
+}
+
+.header__link {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  color: white;
+  text-decoration: none;
+}
+
+.header__link--wite {
+  color: rgb(1, 1, 53);
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px 40px 8px 40px;
+}
+
+.header__links {
+  width: 100%;
+  max-width: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__foundation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__content {
+  width: 100%;
+  width: 535px;
+}
+
+.header__main-text {
+  font-family: "Manrope";
+  font-weight: 300;
+  font-size: 45px;
+  color: white;
+}
+
+.header__text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(198, 198, 198);
+  margin: 20px 0px 70px 0px;
+}
+
+.header__buttom-1 {
+  padding: 16px 56px;
+  background: #65e4a3;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(1, 1, 53);
+  margin-right: 25px;
+}
+
+.header__buttom-2 {
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  border: 2px solid white;
+  padding: 16px 56px;
+}
+
+.header__ending-foto {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.header__ending-foto-2 {
+  position: absolute;
+  right: 140px;
+}
